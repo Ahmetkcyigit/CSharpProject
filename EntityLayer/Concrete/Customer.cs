@@ -8,10 +8,10 @@ namespace EntityLayer.Concrete
 {
     public class Customer
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public string SurName { get; set; }
-        public string District { get; set; }
-        public string City{ get; set; }
+        public int CustomerId { get; set; }
+        public string CustomerName { get; set; }
+        public string CustomerSurName { get; set; }
+        public string CustomerDistrict { get; set; }
+        public string CustomerCity { get; set; }
     }
 }
