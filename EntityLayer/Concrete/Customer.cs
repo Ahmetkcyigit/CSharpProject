@@ -13,5 +13,6 @@ namespace EntityLayer.Concrete
         public string CustomerSurName { get; set; }
         public string CustomerDistrict { get; set; }
         public string CustomerCity { get; set; }
+        public List<Order> Orders { get; set}
     }
 }
